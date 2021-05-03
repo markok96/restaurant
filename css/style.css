@@ -168,18 +168,18 @@ main .discover .box-wrapper .description a {
 }
 
 main .discover .box-wrapper .burger {
-  background: url(/images/burger.jpg) center/cover;
+  background: url("../images/burger.jpg") center/cover;
   margin-top: -2em;
   box-shadow: -7px 7px 5px -2px rgba(0, 0, 0, 0.7);
 }
 
 main .discover .box-wrapper .pizza {
-  background: url(/images/pizza.jpg) center/cover;
+  background: url("../images/pizza.jpg") center/cover;
   box-shadow: -7px 7px 5px -2px rgba(0, 0, 0, 0.7);
 }
 
 main .specialities {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url(/images/specialities-bg.jpg) center/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url("../images/specialities-bg.jpg") center/cover;
   clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0% 100%);
   padding: 5em 0;
   position: relative;
@@ -243,15 +243,15 @@ main .specialities .specialities-container .specialities-row .specialities-col .
 }
 
 main .specialities .specialities-container .specialities-row .specialities-col .img-one {
-  background: url(/images/breakfast.jpg) center/cover;
+  background: url("../images/breakfast.jpg") center/cover;
 }
 
 main .specialities .specialities-container .specialities-row .specialities-col .img-two {
-  background: url(/images/lunch.jpg) center/cover;
+  background: url("../images/lunch.jpg") center/cover;
 }
 
 main .specialities .specialities-container .specialities-row .specialities-col .img-three {
-  background: url(/images/dinner.jpg) center/cover;
+  background: url("../images/dinner.jpg") center/cover;
 }
 
 main .menu {
@@ -309,7 +309,7 @@ main .menu .menu-container .kebab .kebab-description {
 }
 
 main .menu .menu-container .kebab .kebab-img {
-  background: url("/images/kebab.jpg") center/cover;
+  background: url("../images/kebab.jpg") center/cover;
   width: 50%;
 }
 
@@ -331,7 +331,7 @@ main .menu .menu-container .chicken .chicken-description {
 main .menu .menu-container .chicken .chicken-img {
   grid-area: 1 / 4 / 3 / 5;
   width: 50%;
-  background: url("/images/chicken.jpg") center/cover;
+  background: url("../images/chicken.jpg") center/cover;
 }
 
 main .menu .menu-container .sushi {
@@ -350,7 +350,7 @@ main .menu .menu-container .sushi .sushi-description {
 }
 
 main .menu .menu-container .sushi .sushi-img {
-  background: url("/images/sushi.jpg") center/cover;
+  background: url("../images/sushi.jpg") center/cover;
   width: 50%;
 }
 
@@ -371,11 +371,11 @@ main .menu .menu-container .icecream .icecream-description {
 
 main .menu .menu-container .icecream .icecream-img {
   width: 50%;
-  background: url("/images/icecream.jpg") center/cover;
+  background: url("../images/icecream.jpg") center/cover;
 }
 
 main .pricing {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url("/images/pricing-bg.jpg") center/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url("../images/pricing-bg.jpg") center/cover;
   text-align: center;
   color: #ffffff;
   padding: 4em 0;
@@ -449,7 +449,7 @@ main .booking .booking-form {
 }
 
 footer {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url("/images/footer-bg.jpg") center/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url("../images/footer-bg.jpg") center/cover;
   display: grid;
   grid-template-rows: 75% 25%;
   grid-template-columns: 1fr;

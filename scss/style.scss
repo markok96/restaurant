@@ -160,13 +160,13 @@ main {
         }
       }
       .burger {
-        background: url(/images/burger.jpg) center/cover;
+        background: url("../images/burger.jpg") center/cover;
         margin-top: -2em;
         -webkit-box-shadow: -7px 7px 5px -2px rgba(0,0,0,0.7); 
         box-shadow: -7px 7px 5px -2px rgba(0,0,0,0.7);
       }
       .pizza {
-        background: url(/images/pizza.jpg) center/cover;
+        background: url("../images/pizza.jpg") center/cover;
         -webkit-box-shadow: -7px 7px 5px -2px rgba(0,0,0,0.7); 
         box-shadow: -7px 7px 5px -2px rgba(0,0,0,0.7);
       }
@@ -174,7 +174,7 @@ main {
   }
   /*SPECIALITIES*/
   .specialities {
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.4)), url(/images/specialities-bg.jpg) center/cover;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.4)), url("../images/specialities-bg.jpg") center/cover;
     clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0% 100%);
     padding: 5em 0;
     position: relative;
@@ -226,13 +226,13 @@ main {
             }
           }
           .img-one {
-            background: url(/images/breakfast.jpg) center/cover;
+            background: url("../images/breakfast.jpg") center/cover;
           }
           .img-two {
-            background: url(/images/lunch.jpg) center/cover;
+            background: url("../images/lunch.jpg") center/cover;
           }
           .img-three {
-            background: url(/images/dinner.jpg) center/cover;
+            background: url("../images/dinner.jpg") center/cover;
           }
         }
       }
@@ -285,7 +285,7 @@ main {
           justify-content: center;
         }
         .kebab-img {
-          background: url('/images/kebab.jpg') center/cover;
+          background: url("../images/kebab.jpg") center/cover;
           width: 50%;
         }
       }
@@ -305,7 +305,7 @@ main {
         .chicken-img {
           grid-area: 1 / 4 / 3 / 5;
           width: 50%;
-          background: url("/images/chicken.jpg") center/cover;
+          background: url("../images/chicken.jpg") center/cover;
         }
       }
       .sushi {
@@ -322,7 +322,7 @@ main {
           opacity: .8;
         }
         .sushi-img {
-          background: url('/images/sushi.jpg') center/cover;
+          background: url("../images/sushi.jpg") center/cover;
           width: 50%;
         }
       }
@@ -341,7 +341,7 @@ main {
         }
         .icecream-img {
           width: 50%;
-          background: url("/images/icecream.jpg") center/cover;
+          background: url("../images/icecream.jpg") center/cover;
         }
       }
     }
@@ -349,7 +349,7 @@ main {
 
   /* PRICING SECTION */
   .pricing {
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.4)), url('/images/pricing-bg.jpg') center/cover;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.4)), url("../images/pricing-bg.jpg") center/cover;
     text-align: center;
     color: $white;
     padding: 4em 0;
@@ -419,7 +419,7 @@ main {
 }
 
 footer {
-  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.4)), url("/images/footer-bg.jpg") center/cover;
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.4)), url("../images/footer-bg.jpg") center/cover;
   display: grid;
   grid-template-rows: 75% 25%;
   grid-template-columns: 1fr;
