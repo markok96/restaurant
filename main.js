@@ -1,3 +1,3 @@
-import datepicker from 'js-datepicker';
+const calendar = document.querySelector('.cal-input');
 
-datepicker(document.querySelector('.calendar'));
+datepicker(calendar);

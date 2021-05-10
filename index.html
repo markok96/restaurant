@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/js-datepicker/dist/datepicker.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
   <link rel="stylesheet" href="css/style.css">
   <title>Document</title>
@@ -125,46 +126,46 @@
       <div class="pricing-row">
         <div class="pricing-col">
           <div class="pricing-item">
-            <h3 class="item-title">POMENGRATE SHOTS..........................</h3>
+            <h3 class="item-title">CHICKEN BREAST................................</h3>
             <span class="item-price">$50</span>
-            <p class="item-ingredients">Cheese, tomato, mushrooms, onion</p>
+            <p class="item-ingredients">olive oil, chicken broth, salsa, bacon</p>
           </div>
           <div class="pricing-item">
-            <h3 class="item-title">POMENGRATE SHOTS..........................</h3>
+            <h3 class="item-title">CHICKEN BREAST................................</h3>
             <span class="item-price">$50</span>
-            <p class="item-ingredients">Cheese, tomato, mushrooms, onion</p>
+            <p class="item-ingredients">olive oil, chicken broth, salsa, bacon</p>
           </div>
           <div class="pricing-item">
-            <h3 class="item-title">POMENGRATE SHOTS..........................</h3>
+            <h3 class="item-title">CHICKEN BREAST................................</h3>
             <span class="item-price">$50</span>
-            <p class="item-ingredients">Cheese, tomato, mushrooms, onion</p>
+            <p class="item-ingredients">olive oil, chicken broth, salsa, bacon</p>
           </div>
           <div class="pricing-item">
-            <h3 class="item-title">POMENGRATE SHOTS..........................</h3>
+            <h3 class="item-title">CHICKEN BREAST................................</h3>
             <span class="item-price">$50</span>
-            <p class="item-ingredients">Cheese, tomato, mushrooms, onion</p>
+            <p class="item-ingredients">olive oil, chicken broth, salsa, bacon</p>
           </div>
         </div>
         <div class="pricing-col">
           <div class="pricing-item">
-            <h3 class="item-title">POMENGRATE SHOTS..........................</h3>
+            <h3 class="item-title">CHICKEN BREAST................................</h3>
             <span class="item-price">$50</span>
-            <p class="item-ingredients">Cheese, tomato, mushrooms, onion</p>
+            <p class="item-ingredients">olive oil, chicken broth, salsa, bacon</p>
           </div>
           <div class="pricing-item">
-            <h3 class="item-title">POMENGRATE SHOTS..........................</h3>
+            <h3 class="item-title">CHICKEN BREAST................................</h3>
             <span class="item-price">$50</span>
-            <p class="item-ingredients">Cheese, tomato, mushrooms, onion</p>
+            <p class="item-ingredients">olive oil, chicken broth, salsa, bacon</p>
           </div>
           <div class="pricing-item">
-            <h3 class="item-title">POMENGRATE SHOTS..........................</h3>
+            <h3 class="item-title">CHICKEN BREAST................................</h3>
             <span class="item-price">$50</span>
-            <p class="item-ingredients">Cheese, tomato, mushrooms, onion</p>
+            <p class="item-ingredients">olive oil, chicken broth, salsa, bacon</p>
           </div>
           <div class="pricing-item">
-            <h3 class="item-title">POMENGRATE SHOTS..........................</h3>
+            <h3 class="item-title">CHICKEN BREAST................................</h3>
             <span class="item-price">$50</span>
-            <p class="item-ingredients">Cheese, tomato, mushrooms, onion</p>
+            <p class="item-ingredients">olive oil, chicken broth, salsa, bacon</p>
           </div>
         </div>
       </div>
@@ -175,10 +176,48 @@
       <h2 class="rochester">Reservation</h2>
       <h1>BOOKING TITLE</h1>
       <div class="booking-form">
-        <input type="text" class="calendar">
-        <input type="text">
-        <select name="" id=""></select>
-        <button>BOOK A TABLE</button>
+        <div class="booking-item">
+          <span><i class="fas fa-calendar-alt"></i></span>
+          <input type="text" class="cal-input" placeholder="Pick a date...">
+        </div>
+        <div class="booking-item">
+          <span><i class="fas fa-clock"></i></span>
+          <select name="hours" id="hours">
+            <option>06 : 00</option>
+            <option>07 : 00</option>
+            <option>08 : 00</option>
+            <option>09 : 00</option>
+            <option>10 : 00</option>
+            <option>11 : 00</option>
+            <option>12 : 00</option>
+            <option>13 : 00</option>
+            <option>14 : 00</option>
+            <option>15 : 00</option>
+            <option>16 : 00</option>
+            <option>17 : 00</option>
+            <option>18 : 00</option>
+            <option>19 : 00</option>
+            <option>20 : 00</option>
+            <option>21 : 00</option>
+            <option>22 : 00</option>
+          </select>
+        </div>
+        <div>
+          <span><i class="fas fa-user-friends"></i></span>
+          <select name="number" id="number">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+          </select>
+        </div>
+        <button class="booking-btn">BOOK A TABLE</button>
       </div>
     </section>
   </main>
@@ -217,6 +256,7 @@
       Copyright &COPY; 2021, all rights reserved
     </div>
   </footer>
+  <script src="https://unpkg.com/js-datepicker"></script>
   <script src="main.js"></script>
 </body>
 </html>

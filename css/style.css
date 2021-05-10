@@ -445,7 +445,26 @@ main .booking .booking-form {
   display: flex;
   gap: .5em;
   justify-content: center;
+  align-items: center;
   padding-bottom: 2em;
+}
+
+main .booking .booking-form input, main .booking .booking-form select {
+  padding: .5em 1em;
+  border: none;
+  outline: none;
+}
+
+main .booking .booking-form .booking-btn {
+  padding: .5em 1em;
+  text-align: center;
+  background-color: #f7b74f;
+  border: none;
+  font-weight: 700;
+}
+
+main .booking .booking-form .booking-btn:hover {
+  cursor: pointer;
 }
 
 footer {
@@ -515,5 +534,19 @@ footer .copyright {
   justify-content: center;
   align-items: center;
   border-top: 1px solid #575756;
+}
+
+@media (max-width: 600px) {
+  .discover .burger {
+    display: none;
+  }
+  .discover .pizza {
+    display: none;
+  }
+  .specialities .specialities-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 /*# sourceMappingURL=style.css.map */
