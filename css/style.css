@@ -22,7 +22,7 @@ header {
 }
 
 header .logo {
-  color: #ffffff;
+  color: #f7b74f;
   font-family: "Allura", cursive;
   font-size: 3rem;
 }
@@ -254,18 +254,18 @@ main .specialities .specialities-container .specialities-row .specialities-col .
   background: url("../images/dinner.jpg") center/cover;
 }
 
-main .menu {
+main .special-menu {
   text-align: center;
   padding: 2em;
 }
 
-main .menu h1 {
+main .special-menu h1 {
   font-family: "Oswald", sans-serif;
   font-size: 2em;
   margin-bottom: 2em;
 }
 
-main .menu .menu-container {
+main .special-menu .special-menu-container {
   display: grid;
   gap: 1em;
   grid-template-columns: repeat(4, 1fr);
@@ -276,29 +276,29 @@ main .menu .menu-container {
   margin: 0 auto;
 }
 
-main .menu .menu-container p {
+main .special-menu .special-menu-container p {
   margin-bottom: 2em;
 }
 
-main .menu .menu-container i {
+main .special-menu .special-menu-container i {
   font-size: 2em;
 }
 
-main .menu .menu-container h3 {
+main .special-menu .special-menu-container h3 {
   margin-bottom: .5em;
   font-family: "Rochester", cursive;
 }
 
-main .menu .menu-container h1 {
+main .special-menu .special-menu-container h1 {
   margin-bottom: .5em;
 }
 
-main .menu .menu-container .kebab {
+main .special-menu .special-menu-container .kebab {
   grid-area: 1 / 1 / 3 / 3;
   display: flex;
 }
 
-main .menu .menu-container .kebab .kebab-description {
+main .special-menu .special-menu-container .kebab .kebab-description {
   width: 50%;
   background-color: #f7b74f;
   color: #ffffff;
@@ -308,17 +308,17 @@ main .menu .menu-container .kebab .kebab-description {
   justify-content: center;
 }
 
-main .menu .menu-container .kebab .kebab-img {
+main .special-menu .special-menu-container .kebab .kebab-img {
   background: url("../images/kebab.jpg") center/cover;
   width: 50%;
 }
 
-main .menu .menu-container .chicken {
+main .special-menu .special-menu-container .chicken {
   grid-area: 3 / 3 / 1 / 5;
   display: flex;
 }
 
-main .menu .menu-container .chicken .chicken-description {
+main .special-menu .special-menu-container .chicken .chicken-description {
   width: 50%;
   background-color: #ffffff;
   display: flex;
@@ -328,18 +328,18 @@ main .menu .menu-container .chicken .chicken-description {
   opacity: .8;
 }
 
-main .menu .menu-container .chicken .chicken-img {
+main .special-menu .special-menu-container .chicken .chicken-img {
   grid-area: 1 / 4 / 3 / 5;
   width: 50%;
   background: url("../images/chicken.jpg") center/cover;
 }
 
-main .menu .menu-container .sushi {
+main .special-menu .special-menu-container .sushi {
   grid-area: 3 / 1 / 5 / -3;
   display: flex;
 }
 
-main .menu .menu-container .sushi .sushi-description {
+main .special-menu .special-menu-container .sushi .sushi-description {
   width: 50%;
   background-color: #ffffff;
   display: flex;
@@ -349,17 +349,17 @@ main .menu .menu-container .sushi .sushi-description {
   opacity: .8;
 }
 
-main .menu .menu-container .sushi .sushi-img {
+main .special-menu .special-menu-container .sushi .sushi-img {
   background: url("../images/sushi.jpg") center/cover;
   width: 50%;
 }
 
-main .menu .menu-container .icecream {
+main .special-menu .special-menu-container .icecream {
   grid-area: 3 / 3 / 5 / 5;
   display: flex;
 }
 
-main .menu .menu-container .icecream .icecream-description {
+main .special-menu .special-menu-container .icecream .icecream-description {
   width: 50%;
   background-color: #f7b74f;
   color: #ffffff;
@@ -369,7 +369,7 @@ main .menu .menu-container .icecream .icecream-description {
   justify-content: center;
 }
 
-main .menu .menu-container .icecream .icecream-img {
+main .special-menu .special-menu-container .icecream .icecream-img {
   width: 50%;
   background: url("../images/icecream.jpg") center/cover;
 }
@@ -544,9 +544,52 @@ footer .copyright {
     display: none;
   }
   .specialities .specialities-row {
-    display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  .special-menu h1 {
+    margin-bottom: 0;
+  }
+  .special-menu .special-menu-container {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .special-menu .special-menu-container .food {
+    height: 350px;
+    overflow: hidden;
+  }
+  .special-menu .special-menu-container .food h1 {
+    font-size: medium;
+  }
+  .special-menu .special-menu-container .food p {
+    display: none;
+  }
+  .pricing .pricing-row {
+    flex-direction: column;
+    gap: 0 !important;
+  }
+  .pricing .pricing-row .pricing-col:first-child {
+    margin-bottom: 0;
+  }
+  .booking .booking-form {
+    flex-direction: column;
+  }
+  .booking .booking-form select, .booking .booking-form input {
+    width: 175px;
+  }
+  footer {
+    grid-template-rows: 90% 10%;
+    height: 800px;
+  }
+  footer .contact {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  footer .contact button {
+    margin: 0 auto;
   }
 }
 /*# sourceMappingURL=style.css.map */

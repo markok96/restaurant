@@ -35,7 +35,7 @@ header {
   text-align: center;
 
   .logo {
-    color: $white;
+    color: $orange;
     font-family: $font-allura, cursive;
     font-size: 3rem;
   }
@@ -240,7 +240,7 @@ main {
   }
 
   /* MENU SECTION */ 
-  .menu {
+  .special-menu {
     text-align: center;
     padding: 2em;
 
@@ -249,7 +249,7 @@ main {
       font-size: 2em;
       margin-bottom: 2em;
     }
-    .menu-container {
+    .special-menu-container {
       display: grid;
       gap: 1em;
       grid-template-columns: repeat(4, 1fr);
@@ -501,7 +501,9 @@ footer {
 }
 
 @media (max-width: 600px) {
+  header {
 
+  }
   .discover {
     .burger {
       display: none;
@@ -512,12 +514,65 @@ footer {
   }
   .specialities {
     .specialities-row {
-      display: flex;
       flex-direction: column;
       align-items: center;
     }
   }
-  
+  .special-menu {
+    h1 {
+      margin-bottom: 0;
+    }
+    .special-menu-container {
+      display: flex !important;
+      flex-direction: column;
+      justify-content: center;
+      overflow: hidden;
+
+      .food {
+        height: 350px;
+        overflow: hidden;
+        h1 {
+          font-size: medium;
+        }
+        p {
+          display: none;
+        }
+      }
+    }
+  }
+  .pricing {
+    .pricing-row {
+      flex-direction: column;
+      gap: 0 !important;
+
+      .pricing-col:first-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+  .booking {
+    .booking-form {
+      flex-direction: column;
+
+      select, input {
+        width: 175px;
+      }
+    }
+  }
+  footer {
+    grid-template-rows: 90% 10%;
+    height: 800px;
+    .contact {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+
+      button {
+        margin: 0 auto;
+      }
+    }
+  }
+
 }
 
 @media (max-width: 800px) {
